@@ -18,8 +18,8 @@ function Info() {
                     <p>
                         Estudante de Engenharia mecatrônica, interessado<br/>
                         em automação industrial, programação e eletrônica.<br/>
-                        Atualmente participando de uma IC com a Petrobrás<br/>
-                        e no grupo de extensão <a href={links.fog_itch} target="_blank" rel="noopener noreferrer">Fellowship of the Game</a>.
+                        Atualmente participando como coordenador de RH no<br/>
+                        grupo de extensão <a href={links.fog_itch} target="_blank" rel="noopener noreferrer">Fellowship of the Game</a>.
                     </p>
                 </div>
             </div>
