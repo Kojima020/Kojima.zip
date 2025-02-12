@@ -18,8 +18,8 @@ function Info() {
                     <p>
                         Estudante de Engenharia mecatrônica, interessado<br/>
                         em automação industrial, programação e eletrônica.<br/>
-                        Atualmente participando como coordenador de RH no<br/>
-                        grupo de extensão <a href={links.fog_itch} target="_blank" rel="noopener noreferrer">Fellowship of the Game</a>.
+                        Atualmente participando como coordenador de RH<br/>
+                        no grupo de extensão <a href={links.fog_itch} target="_blank" rel="noopener noreferrer">Fellowship of the Game</a>.
                     </p>
                 </div>
             </div>
@@ -39,10 +39,10 @@ function Info() {
                 <div className="text-content">
                     <h1>Sobre o site</h1>
                     <p>
-                        Esse site foi construído utilizando HTML, CSS,<br/>
-                        Tailwind e Javascript, implementando a <a href={links.navbar}  target="_blank" rel="noopener noreferrer">barra<br/>
-                        deslizante de guias</a> do Build UI e o<br/>
-                        <a href={links.dark_mode} target="_blank" rel="noopener noreferrer">alternador de temas</a> de Jose Felix.
+                        Esse site foi construído utilizando HTML,<br/>
+                        CSS, Tailwind e Javascript, implementando<br/>
+                        a <a href={links.navbar}  target="_blank" rel="noopener noreferrer">barra deslizante de guias</a> do Build UI<br/>
+                        e o <a href={links.dark_mode} target="_blank" rel="noopener noreferrer">alternador de temas</a> de Jose Felix.
                     </p>
                 </div>
             </div>
