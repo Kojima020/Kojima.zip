@@ -3,19 +3,9 @@
 @tailwind utilities;
 
 
-:root {  /* dark theme colors*/
-  --h1-color: #ffc300;
-  --link-color: #ffc84b;
-  --text-color: #fff3d4;
-  --background-color: #000814;
-}
 
-[data-theme="light"] {
-  --h1-color: #00195a;
-  --link-color: #003566;
-  --text-color: #000814;
-  --background-color: #f2e5bc;
-}
+
+
 
 body {
   margin: 0;
@@ -92,3 +82,5 @@ img {
   height: auto;
   padding-bottom: 2rem;
 }
+
+

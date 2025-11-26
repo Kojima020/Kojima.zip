@@ -1,18 +1,18 @@
-import Renan    from "./images/Renan_square.jpg";
+import RenanSquare    from "./images/RenanSquare.jpg";
 import Banguela from "./images/Banguela.jpg";
-import Mosaic   from "./images/Mosaic.jpg";
+import ReactLogo    from "./images/ReactLogo.jpg";
 
 const links = {
     fog_itch: "https://fog-icmc.itch.io/",
     navbar: "https://buildui.com/recipes/animated-tabs/",
-    dark_mode: "https://www.npmjs.com/package/react-toggle-dark-mode/"
+    // dark_mode: "https://www.npmjs.com/package/react-toggle-dark-mode/"
 };
 
 function Info() {
     return (
         <div>
             <div className="content-section">
-                <img src={Renan} alt="Foto do Renan"/>
+                <img src={RenanSquare} alt="Foto do Renan"/>
                 <div className="text-section">
                     <h1>Sobre o Renan</h1>
                     <p>
@@ -35,14 +35,14 @@ function Info() {
             </div>
 
             <div className="content-section">
-                <img src={Mosaic} alt="Mosaico de cores do site e fotos dos programadores dos componentes utilizados"/>
+                <img src={ReactLogo} alt="Logo do React"/>
                 <div className="text-content">
                     <h1>Sobre o site</h1>
                     <p>
                         Esse site foi construído utilizando HTML,<br/>
-                        CSS, Tailwind e Javascript, implementando<br/>
+                        CSS, Javascript e React, implementando<br/>
                         a <a href={links.navbar}  target="_blank" rel="noopener noreferrer">barra deslizante de guias</a> do Build UI<br/>
-                        e o <a href={links.dark_mode} target="_blank" rel="noopener noreferrer">alternador de temas</a> de Jose Felix.
+                        e diferentes pacotes do React.
                     </p>
                 </div>
             </div>
