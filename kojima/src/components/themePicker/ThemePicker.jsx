@@ -3,13 +3,15 @@ import './Themes.css';
 
 
 const themes = [
-    { name: 'bw',       label: 'Black‑White' },
-    { name: 'cyan',     label: 'Cyan' },
-    { name: 'emerald',  label: 'Emerald' },
-    { name: 'lime',     label: 'Lime' },
-    { name: 'default',  label: 'Default' },
-    { name: 'orange',   label: 'Orange' },
-    { name: 'blood',    label: 'Blood' },
+    { name: 'bw',      label: 'Black‑White' },
+    { name: 'cyan',    label: 'Cyan' },
+    { name: 'emerald', label: 'Emerald' },
+    { name: 'lime',    label: 'Lime' },
+    { name: 'default', label: 'Default' },
+    { name: 'orange',  label: 'Orange' },
+    { name: 'blood',   label: 'Blood' },
+    { name: 'purple',  label: 'Purple' },
+    { name: 'pink',    label: 'Pink' },
 ];
 
 export default function ThemePicker() {
