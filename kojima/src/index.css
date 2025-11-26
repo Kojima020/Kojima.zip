@@ -3,79 +3,81 @@
 @tailwind utilities;
 
 body {
-  margin: 0;
-  padding: 0;
-  color: var(--text-color);
-  background-color: var(--background-color);
-  transition: all 0.5s ease;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-  "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-  "Droid Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    transition: all 0.5s ease;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 ascart {
-  font-family: "Roboto", Courier, monospace;
-  color: var(--h1-color);
-  white-space: pre;
-  line-height: 1.1em;
-  /*letter-spacing: -0.2em;*/
-  display: inline-block;
-  }
+    font-family: "Roboto", Courier, monospace;
+    color: var(--h1-color);
+    white-space: pre;
+    line-height: 1.1em;
+    /*letter-spacing: -0.2em;*/
+    display: inline-block;
+    font-weight: bold;
+    }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--h1-color);
-  font-weight: bold;
-  font-size: 30px;
+    color: var(--h1-color);
+    font-weight: bold;
+    font-size: 30px;
 }
 
 p, span, div {
-  color: var(--text-color);
-  font-size: 20px;
+    color: var(--text-color);
+    font-size: 20px;
 }
 
 link, a{
-  color: var(--link-color);
+    color: var(--link-color);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas,
-    "Courier New", monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas,
+        "Courier New", monospace;
 }
 
 .content-section {
-  display: flex;
-  /*justify-content: center;*/
-  align-items: center;
-  gap: 2rem;
-  max-width: 1000px;
-  padding: 0 20px;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    gap: 2rem;
+    max-width: 750px;
+    padding: 0 20px;
 }
 
 .text-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .navbar-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-  z-index: 0;
-  /*has to be zero to be able to toggle dark mode*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    z-index: 0;
+    /*has to be zero to be able to toggle dark mode*/
 }
 
 img {
-  max-width: 200px;
-  height: auto;
-  padding-bottom: 2rem;
+    max-width: 200px;
+    height: auto;
+    padding-bottom: 2rem;
 }
 
 

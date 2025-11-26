@@ -11,8 +11,8 @@
 }
 
 .swatch {
-    width: .25vw;
-    height: 5vh;
+    width: 5px;
+    height: 55px;
     border: none;
     background: var(--swatch-bg);
     transform-origin: center;
@@ -23,14 +23,14 @@
 .swatch::before {
     content: "";  /* precisa estar assim */
     position: absolute;  /* sit on top of the button */
-    inset: 0 -0.5vw 0 0;  /* expand button hitbox */
+    inset: 0 -10px 0 0;  /* expand button hitbox */
     background: transparent;
 }
 
 .swatch:hover,
 .swatch.selected {
-    margin-right: 0.25vw;
-    width: .55vw;
+    margin-right: 5px;
+    width: 13px;
 }
 
 

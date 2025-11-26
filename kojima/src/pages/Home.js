@@ -3,7 +3,6 @@
 function Home() {
     return (
         <div>
-            {/*<h1>Title?</h1>*/}
             <ascart>
                 888    d8P            d8b d8b                                     d8b         <br/>
                 888   d8P             Y8P Y8P                                     Y8P         <br/>

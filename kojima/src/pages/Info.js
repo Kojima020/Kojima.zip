@@ -16,10 +16,10 @@ function Info() {
                 <div className="text-section">
                     <h1>Sobre o Renan</h1>
                     <p>
-                        Estudante de Engenharia mecatrônica, interessado<br/>
-                        em automação industrial, programação e eletrônica.<br/>
-                        Atualmente participando como coordenador de RH<br/>
-                        no grupo de extensão <a href={links.fog_itch} target="_blank" rel="noopener noreferrer">Fellowship of the Game</a>.
+                        Estudante de Engenharia mecatrônica, interessado em
+                        automação industrial, programação e eletrônica.
+                        Atualmente participando como coordenador de RH no grupo de
+                        extensão <a href={links.fog_itch} target="_blank" rel="noopener noreferrer">Fellowship of the Game</a>.
                     </p>
                 </div>
             </div>
@@ -36,13 +36,12 @@ function Info() {
 
             <div className="content-section">
                 <img src={ReactLogo} alt="Logo do React"/>
-                <div className="text-content">
+                <div className="text-section">
                     <h1>Sobre o site</h1>
                     <p>
-                        Esse site foi construído utilizando HTML,<br/>
-                        CSS, Javascript e React, implementando<br/>
-                        a <a href={links.navbar}  target="_blank" rel="noopener noreferrer">barra deslizante de guias</a> do Build UI<br/>
-                        e diferentes pacotes do React.
+                        Esse site foi construído utilizando HTML, CSS, Javascript e React, implementando
+                        a <a href={links.navbar}  target="_blank" rel="noopener noreferrer">barra de guias</a> do
+                        Build UI e diferentes pacotes do React.
                     </p>
                 </div>
             </div>
