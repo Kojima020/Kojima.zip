@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     color: var(--text-color);
@@ -23,7 +27,7 @@ ascart {
     /*letter-spacing: -0.2em;*/
     display: inline-block;
     font-weight: bold;
-    }
+}
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--h1-color);
@@ -45,39 +49,8 @@ code {
         "Courier New", monospace;
 }
 
-.content-section {
-    display: flex;
-    /*justify-content: center;*/
-    align-items: center;
-    gap: 2rem;
-    max-width: 750px;
-    padding: 0 20px;
-}
-
-.text-section {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.navbar-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    z-index: 0;
-    /*has to be zero to be able to toggle dark mode*/
-}
-
 img {
     max-width: 200px;
     height: auto;
     padding-bottom: 2rem;
 }
-
-

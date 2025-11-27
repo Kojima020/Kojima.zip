@@ -1,9 +1,28 @@
 
 .App {
-  /*background-color: black;*/
-  /*color: white;*/
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.content-section {
+    /*width: 100%;*/
+    max-width: 750px;
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    gap: 2rem;
+}
+
+.text-section {
+    width: 100%;
+    /*max-width: 750px;*/
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
 }

@@ -1,6 +1,7 @@
+import { useNavigate, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import "./NavBar.css"
 
 const tabs = [
     { id: "home",     label: "Home",     path: "/home" },

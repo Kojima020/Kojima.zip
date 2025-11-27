@@ -1,19 +1,20 @@
-import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 // import ThemeToggle  from "./components/themeToggle/ThemeToggle";
 import ThemePicker  from "./components/themePicker/ThemePicker";
-import NavBar       from "./components/NavBar";
+import NavBar       from "./components/navBar/NavBar";
 import Home         from "./pages/Home";
 import Info         from "./pages/Info";
 import Projetos     from "./pages/Projetos";
+import "./components/themePicker/Themes.css"
 import "./App.css";
-// import "./components/themePicker/Themes.css"
+import "./index.css"
 
-function App() {
+export default function App() {
     return (
         <BrowserRouter>
             <div className="App">
                 <NavBar/>
-                {/*<ThemeToggle/>*/}
                 <ThemePicker/>
                 <Routes>
                     <Route path="/" element={<Navigate to="/home"/>} />
@@ -25,5 +26,3 @@ function App() {
         </BrowserRouter>
     );
 }
-
-export default App;
