@@ -65,19 +65,19 @@ export default function ThemePicker() {
     return (
         <div className="theme-picker">
             <div className="background">
-                {/*<Warp*/}
-                {/*    width={size.width}*/}
-                {/*    height={size.height}*/}
-                {/*    colors={[themeColors.secondColor, themeColors.backgroundColor]}*/}
-                {/*    proportion={0.45}*/}
-                {/*    softness={1}*/}
-                {/*    distortion={0.25}*/}
-                {/*    swirl={0.8}*/}
-                {/*    swirlIterations={10}*/}
-                {/*    shape="checks"*/}
-                {/*    shapeScale={0.1}*/}
-                {/*    speed={1}*/}
-                {/*/>*/}
+                <Warp
+                    width={size.width}
+                    height={size.height}
+                    colors={[themeColors.backgroundColor, themeColors.secondColor]}
+                    proportion={0.45}
+                    softness={1}
+                    distortion={0.25}
+                    swirl={0.8}
+                    swirlIterations={10}
+                    shape="checks"
+                    shapeScale={0.1}
+                    speed={1}
+                />
             </div>
 
             <div className="selector">

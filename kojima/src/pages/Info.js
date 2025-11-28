@@ -5,7 +5,7 @@ import ReactLogo    from "./images/ReactLogo.jpg";
 const links = {
     fog_itch: "https://fog-icmc.itch.io/",
     navbar: "https://buildui.com/recipes/animated-tabs/",
-    // dark_mode: "https://www.npmjs.com/package/react-toggle-dark-mode/"
+    warp: "https://shaders.paper.design/warp"
 };
 
 function Info() {
@@ -39,9 +39,9 @@ function Info() {
                 <div className="text-section">
                     <h1>Sobre o site</h1>
                     <p>
-                        Esse site foi construído utilizando HTML, CSS, Javascript e React, implementando
+                        Esse site foi construído utilizando Javascript, React e CSS, implementando
                         a <a href={links.navbar}  target="_blank" rel="noopener noreferrer">barra de guias</a> do
-                        Build UI e diferentes pacotes do React.
+                        Build UI e <a href={links.warp}  target="_blank" rel="noopener noreferrer">efeito de warp</a> do Paper Shaders.
                     </p>
                 </div>
             </div>
