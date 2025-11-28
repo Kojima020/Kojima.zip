@@ -6,8 +6,8 @@
 }
 
 .swatch {
-    width: 5px;
-    height: 55px;
+    width: .25vw;
+    height: 4vh;
     border: none;
     background: var(--swatch-bg);
     transform-origin: center;
@@ -18,14 +18,14 @@
 .swatch::before {
     content: "";  /* precisa estar assim */
     position: absolute;  /* sit on top of the button */
-    inset: 0 -10px 0 0;  /* expand button hitbox */
+    inset: 0 -.75vw 0 0;  /* expand button hitbox */
     background: transparent;
 }
 
 .swatch:hover,
 .swatch.selected {
-    margin-right: 5px;
-    width: 13px;
+    margin-right: .25vw;
+    width: .7vw;
 }
 
 .selector {
@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: column;
     /*gap: 0.2rem;*/
-    padding: 1rem 0 0 0;
+    padding: 4vh 0 0 0;
     z-index: 10;
 }
 
@@ -65,8 +65,8 @@
     --text-color: #040404;
     --background-color: #ffffff;
 }
-.swatch[data-theme="bw-dark"]   { --swatch-bg:#ffffff; }
-.swatch[data-theme="bw-light"]  { --swatch-bg:#000000; }
+.swatch[data-theme="bw-dark"]  { --swatch-bg:#ffffff; }
+.swatch[data-theme="bw-light"] { --swatch-bg:#000000; }
 
 [data-theme="default-dark"] {
     --h1-color: #ffc300;
@@ -114,8 +114,8 @@
     --text-color: #251417;
     --background-color: #f9eeee;
 }
-.swatch[data-theme="cyan-dark"]    { --swatch-bg:#40dbdb; }
-.swatch[data-theme="cyan-light"]   { --swatch-bg:#33b3c3; }
+.swatch[data-theme="cyan-dark"]  { --swatch-bg:#40dbdb; }
+.swatch[data-theme="cyan-light"] { --swatch-bg:#33b3c3; }
 
 
 
@@ -131,8 +131,8 @@
     --text-color: #303030;
     --background-color: #fcfffc;
 }
-.swatch[data-theme="lime-dark"]    { --swatch-bg:#ddf21e; }
-.swatch[data-theme="lime-light"]   { --swatch-bg:#aad02e; }
+.swatch[data-theme="lime-dark"]  { --swatch-bg:#ddf21e; }
+.swatch[data-theme="lime-light"] { --swatch-bg:#aad02e; }
 
 
 
@@ -149,7 +149,7 @@
     --background-color: #fbf5f5;
 }
 .swatch[data-theme="orange-dark"]  { --swatch-bg:#ffa040; }
-.swatch[data-theme="orange-light"] { --swatch-bg:#ffa040; } /* same hue, different bg */
+.swatch[data-theme="orange-light"] { --swatch-bg:#ffa040; }
 
 
 
@@ -165,8 +165,8 @@
     --text-color: #0e1e1e;
     --background-color: #eeeeee;
 }
-.swatch[data-theme="blood-dark"]   { --swatch-bg:#ff4600; }
-.swatch[data-theme="blood-light"]  { --swatch-bg:#ea3500; }
+.swatch[data-theme="blood-dark"]  { --swatch-bg:#ff4600; }
+.swatch[data-theme="blood-light"] { --swatch-bg:#ea3500; }
 
 
 
