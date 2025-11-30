@@ -101,7 +101,7 @@
     --link-color: #3f7e21;
     --text-color: #27270c;
     --background-color: #f5f0e7;
-    --secondary-color: #f0f0ef;
+    --secondary-color: #eaeada;
 }
 .swatch[data-theme="emerald-dark"]  { --swatch-bg:#80cf45; }
 .swatch[data-theme="emerald-light"] { --swatch-bg:#469527; }
@@ -119,7 +119,7 @@
     --h1-color: #33b3c3;
     --link-color: #30909d;
     --text-color: #251417;
-    --background-color: #f9eeee;
+    --background-color: #efeff9;
     --secondary-color: #f7f7f7;
 }
 .swatch[data-theme="cyan-dark"]  { --swatch-bg:#40dbdb; }
@@ -147,11 +147,11 @@
 
 
 [data-theme="orange-dark"] {
-    --h1-color: #ffa040;
-    --link-color: #ffb040;
+    --h1-color: #f07710;
+    --link-color: #da9040;
     --text-color: #dcdcdc;
-    --background-color: #171615;
-    --secondary-color: #211c17;
+    --background-color: #0c1010;
+    --secondary-color: #070707;
 }
 [data-theme="orange-light"] {
     --h1-color: #ffa040;
@@ -160,27 +160,27 @@
     --background-color: #fbf5f5;
     --secondary-color: #ededed;
 }
-.swatch[data-theme="orange-dark"]  { --swatch-bg:#ffa040; }
+.swatch[data-theme="orange-dark"]  { --swatch-bg:#f07710; }
 .swatch[data-theme="orange-light"] { --swatch-bg:#ffa040; }
 
 
 
 [data-theme="blood-dark"] {
-    --h1-color: #ff4600;
+    --h1-color: #ff5000;
     --link-color: #fc6930;
     --text-color: #eeeeee;
     --background-color: #081111;
     --secondary-color: #0f0000;
 }
 [data-theme="blood-light"] {
-    --h1-color: #ea3500;
+    --h1-color: #ff5000;
     --link-color: #da2800;
     --text-color: #0e1e1e;
     --background-color: #eeeeee;
     --secondary-color: #fcf8f8;
 }
-.swatch[data-theme="blood-dark"]  { --swatch-bg:#ff4600; }
-.swatch[data-theme="blood-light"] { --swatch-bg:#ea3500; }
+.swatch[data-theme="blood-dark"]  { --swatch-bg:#ff5000; }
+.swatch[data-theme="blood-light"] { --swatch-bg:#ff5000; }
 
 
 

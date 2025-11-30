@@ -76,7 +76,8 @@ export default function ThemePicker() {
                     swirlIterations={10}
                     shape="checks"
                     shapeScale={0.1}
-                    speed={1}
+                    speed={0.75}
+                    scale={(size.width+size.height)/(1920+1080)*1.25}
                 />
             </div>
 
