@@ -23,10 +23,10 @@ ascart {
     font-family: "Roboto", Courier, monospace;
     color: var(--h1-color);
     white-space: pre;
-    line-height: 1.1em;
-    /*letter-spacing: -0.2em;*/
+    line-height: 1em;
+    /*letter-spacing: -0.1em;*/
     display: inline-block;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
