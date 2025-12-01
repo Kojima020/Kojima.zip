@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 // import ThemeToggle  from "./components/themeToggle/ThemeToggle";
-import ThemePicker  from "./components/themePicker/ThemePicker";
+import ThemePicker  from "./components/complexThemePicker/ThemePicker";
 import NavBar       from "./components/navBar/NavBar";
 import Home         from "./pages/Home";
 import Info         from "./pages/Info";
 import Projetos     from "./pages/Projetos";
-import "./components/themePicker/Themes.css"
+import "./components/complexThemePicker/Themes.css"
 import "./App.css";
 import "./index.css"
 
