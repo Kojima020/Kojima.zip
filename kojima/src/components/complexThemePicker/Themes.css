@@ -113,7 +113,7 @@ i{
     --link-color: #3f7e21;
     --text-color: #27270c;
     --background-color: #f5f0e7;
-    --secondary-color: #eaeada;
+    --secondary-color: #eaeaea;
 }
 .swatch[data-theme="emerald"] { --swatch-bg:#80cf45; }
 
@@ -123,7 +123,7 @@ i{
     --link-color: #9dece6;
     --text-color: #fafdf0;
     --background-color: #1d0e10;
-    --secondary-color: #13090a;
+    --secondary-color: #100507;
 }
 [data-theme="cyan"][data-mode="light"] {
     --h1-color: #33b3c3;
@@ -190,14 +190,14 @@ i{
     --h1-color: #a93f90;
     --link-color: #bf6faa;
     --text-color: #f9eeee;
-    --background-color: #1d1329;
-    --secondary-color: #2a192e;
+    --background-color: #170f20;
+    --secondary-color: #251629;
 }
 [data-theme="purple"][data-mode="light"] {
     --h1-color: #833bb8;
     --link-color: #7333a2;
     --text-color: #1d1329;
-    --background-color: #eeeefc;
+    --background-color: #eaeaf0;
     --secondary-color: #f8f2fb;
 }
 .swatch[data-theme="purple"] { --swatch-bg:#a93f90; }
