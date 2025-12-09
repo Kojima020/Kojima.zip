@@ -23,13 +23,6 @@ export default function ThemePicker() {
     const [theme, setTheme] = useState("default");
     const [mode, setMode] = useState("dark");
 
-    // Handle theme button click
-    const handleClick = (click) => {
-        const theme = click.currentTarget.dataset.theme;
-        applyTheme(theme);
-        document.querySelector(".swatch.selected")?.classList.remove("selected");
-        click.currentTarget.classList.add("selected");
-    };
 
     // Handle the theme change (apply theme and update the colors)
     const applyTheme = (newTheme, newMode = mode) => {
@@ -57,6 +50,7 @@ export default function ThemePicker() {
         setThemeColors({backgroundColor, secondColor});
     };
 
+    // Window resizing
     useEffect(() => {
         const handleResize = () => setSize({width: window.innerWidth, height: window.innerHeight});
         window.addEventListener("resize", handleResize);
@@ -86,28 +80,33 @@ export default function ThemePicker() {
                     swirlIterations={10}
                     shape="checks"
                     shapeScale={0.1}
-                    speed={2}
+                    speed={1.69}
                     scale={(size.width+size.height)/(1920+1080)*1.25}
                 />
             </div>
 
-            <div className="color-selector">
-                {themes.map((theme) => (
-                    <button
-                        key={theme.name}
-                        className="swatch"
-                        data-theme={theme.name}
-                        onClick={() => applyTheme(theme.name, mode)}   // mode stays same
-                        title={theme.label}
-                    />
-                ))}
-
+            <div className="mode-selector">
+                <button onClick={() => {
+                    const modes = ["dark", "color", "light"];
+                    const nextMode = modes[(modes.indexOf(mode) + 1) % modes.length];
+                    applyTheme(theme, nextMode);
+                }}>
+                    {mode === "dark"  && <i className="bi bi-circle ">     </i>}
+                    {mode === "color" && <i className="bi bi-circle-half icon-right"> </i>}
+                    {mode === "light" && <i className="bi bi-circle-fill"></i>}
+                </button>
             </div>
 
-            <div className="mode-selector">
-                <button onClick={() => applyTheme(theme, mode === "light" ? "dark" : "light")}>
-                    { mode === "light" ? (<i className="bi bi-lightbulb-fill"></i>) : (<i className="bi bi-lightbulb"></i>) }
-                </button>
+            <div className="color-selector">
+                {themes.map((t) => (
+                    <button
+                        key={t.name}
+                        className={`swatch ${t.name === theme ? "selected" : ""}`}
+                        data-theme={t.name}
+                        onClick={() => applyTheme(t.name, mode)}
+                        title={t.label}
+                    />
+                ))}
             </div>
 
         </div>
