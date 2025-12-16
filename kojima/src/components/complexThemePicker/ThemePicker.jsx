@@ -19,7 +19,7 @@ const themes = [
 export default function ThemePicker() {
 
     const [size, setSize] = useState({width: window.innerWidth, height: window.innerHeight});
-    const [themeColors, setThemeColors] = useState({backgroundColor: "#121212", secondColor: "#505050"});
+    const [themeColors, setThemeColors] = useState({backgroundColor: "#121212", secondaryColor: "#505050"});
     const [theme, setTheme] = useState("default");
     const [mode, setMode] = useState("dark");
 
@@ -45,9 +45,9 @@ export default function ThemePicker() {
 
         // Fetch the background and secondary colors directly from CSS variables
         const backgroundColor = computedStyles.getPropertyValue("--background-color").trim();
-        const secondColor = computedStyles.getPropertyValue("--secondary-color").trim();
+        const secondaryColor = computedStyles.getPropertyValue("--secondary-color").trim();
 
-        setThemeColors({backgroundColor, secondColor});
+        setThemeColors({backgroundColor, secondaryColor});
     };
 
     // Window resizing
@@ -72,7 +72,7 @@ export default function ThemePicker() {
                 <Warp
                     width={size.width}
                     height={size.height}
-                    colors={[themeColors.backgroundColor, themeColors.secondColor]}
+                    colors={[themeColors.backgroundColor, themeColors.secondaryColor]}
                     proportion={0.45}
                     softness={1}
                     distortion={0.25}

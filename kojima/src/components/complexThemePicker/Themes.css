@@ -28,12 +28,13 @@
 }
 
 .color-selector {
-    top: 0;
+    top: 4vh;  /* margin without the element properties */
+    /*margin: 4vh 0;  !* margin with the element properties *!*/
     position: fixed;
     display: flex;
     flex-direction: column;
-    padding: 4vh 0 0 0;
-    z-index: 5;
+    z-index: 10;
+    /*border: 1px solid #000;*/
 }
 
 .mode-selector {
@@ -49,7 +50,8 @@
     display: block;
     align-items: center;
     justify-content: center;
-    padding-top: 0.25vw;
+    padding-top: 0.25vw;  /* centraliza o icone */
+    /*border: 1px solid #000;*/
 }
 
 
