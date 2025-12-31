@@ -236,8 +236,8 @@ i{
     --h1-color: #ff5000;
     --link-color: #ffad92;
     --text-color: #fafdf0;
-    --background-color: #400000;
-    --secondary-color: #701000;
+    --background-color: #182e17;
+    --secondary-color: #294f28;
 }
 .swatch[data-theme="blood"] { --swatch-bg:#ff5000; }
 
